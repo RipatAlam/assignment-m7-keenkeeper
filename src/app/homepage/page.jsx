@@ -1,9 +1,8 @@
-import Image from "next/image";
+
 import React from "react";
 import { FaPlus } from "react-icons/fa";
 import CardDetailsPage from "@/components/ui/cardDetails";
 import Link from "next/link";
-import TimeLinePage from "../timelinepage/page";
 
 const KeenKeeperData = async () => {
   const res = await fetch("http://localhost:3000//data.json");
