@@ -1,7 +1,5 @@
 import React from "react";
 import {
-  Calendar,
-  Clock,
   Phone,
   MessageCircle,
   Video,
